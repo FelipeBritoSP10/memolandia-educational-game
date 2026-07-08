@@ -1,12 +1,11 @@
-# 🧠 Memolândia
+# 🧠 Memolândia | Gamificação e Desenvolvimento Cognitivo
 
 ## 🎮 Jogo Educacional de Estímulo Cognitivo
 
-![Projeto Educacional](https://img.shields.io/badge/Projeto-Educacional-blue)
-![HTML5](https://img.shields.io/badge/HTML5-orange)
-![CSS3](https://img.shields.io/badge/CSS3-blue)
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-purple)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.3%20Framework-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ---
 
@@ -121,60 +120,128 @@ A proposta visual é proporcionar uma experiência simples e agradável para cri
 
 ---
 
+# 🚀 Como Utilizar
+
+## 📥 Clonar o Projeto
+
+Primeiro, faça o clone do repositório:
+
+```bash
+git clone https://github.com/FelipeBritoSP10/memolandia-educational-game
+```
+
+Acesse a pasta do projeto:
+
+```bash
+cd memolandia-educational-game
+```
+
+---
+
+## ▶️ Executando o Projeto
+
+Como a Memolândia é uma aplicação Front-end desenvolvida com **HTML, CSS e JavaScript puro**, não é necessário instalar dependências.
+
+Basta abrir o arquivo:
+
+```text
+index.html
+```
+
+diretamente no navegador.
+
+---
+
+## 🌐 Executar com Servidor Local (Opcional)
+
+Para uma melhor experiência de desenvolvimento, recomenda-se utilizar um servidor local.
+
+### Utilizando o VS Code
+
+Instale a extensão:
+
+```text
+Live Server
+```
+
+Depois:
+
+1. Abra o projeto no VS Code.
+2. Clique com o botão direito no arquivo `index.html`.
+3. Selecione:
+
+```text
+Open with Live Server
+```
+
+4. O jogo será aberto automaticamente no navegador.
+
+---
+
+## 🎮 Como Jogar
+
+1. Clique em uma carta para revelar o elemento.
+2. Escolha uma segunda carta.
+3. O sistema irá verificar se existe uma correspondência.
+4. Encontre todos os pares para finalizar o desafio.
+5. Complete a partida e receba sua conquista. 🏆
+
+---
+
+## 💻 Requisitos
+
+Para executar o projeto, você precisa apenas de:
+
+- 🌐 Navegador moderno
+- 💻 Editor de código (opcional)
+- 🔌 Conexão com internet para carregar bibliotecas externas
+
+---
+
+## 🌎 Navegadores Compatíveis
+
+O projeto funciona nos principais navegadores:
+
+- Google Chrome
+- Microsoft Edge
+- Mozilla Firefox
+- Safari
+
 # 🛠️ Tecnologias Utilizadas
 
-## HTML5
+## 🌐 Desenvolvimento Web
 
-Responsável pela estrutura da aplicação:
-
-- Organização dos elementos
-- Estrutura semântica
-- Construção das telas
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 ---
 
-## CSS3
+## 🎨 Interface e Design
 
-Utilizado para:
-
-- Estilização visual
-- Animações
-- Gradientes
-- Responsividade
-- Efeitos de interação
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.3-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+![CSS Animations](https://img.shields.io/badge/CSS%20Animations-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Responsive Design](https://img.shields.io/badge/Responsive%20Design-0A66C2?style=flat-square&logo=responsive&logoColor=white)
 
 ---
 
-## JavaScript
+## 🎮 Gamificação
 
-Responsável pela lógica do jogo:
+![Memory Game](https://img.shields.io/badge/Memory%20Game-FFB000?style=flat-square&logo=gamepad&logoColor=white)
+![Educational](https://img.shields.io/badge/Educational%20Game-4CAF50?style=flat-square&logo=googleclassroom&logoColor=white)
 
-- Manipulação das cartas
-- Controle de estados
-- Sistema de movimentos
-- Comparação dos pares
-- Eventos de interação
-
----
-
-## Bootstrap 5
-
-Utilizado para:
-
-- Sistema de grid responsivo
-- Organização do layout
-- Componentes visuais
-- Adaptação para diferentes telas
+- 🧠 Sistema de associação de conceitos.
+- 🎯 Desafio de memória e concentração.
+- 🎉 Feedback visual através de animações e confetes.
 
 ---
 
-## Canvas Confetti
+## 🎊 Biblioteca
 
-Biblioteca utilizada para criar efeitos de celebração:
+![Canvas Confetti](https://img.shields.io/badge/Canvas%20Confetti-FF69B4?style=flat-square&logo=javascript&logoColor=white)
 
-- Feedback positivo
-- Confetes de acerto
-- Animação de conclusão
+- 🎉 Biblioteca utilizada para criar efeitos de celebração.
+- 🏆 Feedback visual ao encontrar pares e concluir a partida.
 
 ---
 
@@ -338,6 +405,12 @@ Projeto desenvolvido com foco em:
 
 # 📄 Licença
 
-Este projeto possui finalidade educacional e acadêmica.
+Este projeto foi desenvolvido com o propósito de promover o desenvolvimento cognitivo e a acessibilidade digital. Sua arquitetura é aberta e dedicada ao suporte de usuários que buscam aprimorar habilidades de memória e percepção através de uma interface de alta performance.
 
-Desenvolvido para estudos, aprendizado e demonstração de aplicações web interativas.
+Termos de Propósito:
+
+- Foco Social: Este software foi concebido para atuar como uma ferramenta de apoio educacional, otimizada para o aprendizado e o reforço cognitivo.
+
+- Elite Engineering: O código reflete um padrão rigoroso de qualidade, mantendo a transparência e a eficiência para garantir que a tecnologia sirva, acima de tudo, a quem precisa de suporte no desenvolvimento de competências mentais.
+
+- Uso Aberto: Convidamos à utilização, inspeção e implementação desta ferramenta por qualquer pessoa ou instituição que compartilhe do compromisso de transformar a tecnologia em um meio de inclusão e auxílio cognitivo.
