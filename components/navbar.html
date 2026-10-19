@@ -1,0 +1,72 @@
+
+<nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container d-flex justify-content-between align-items-center">
+
+        <!-- Logo -->
+        <a class="navbar-brand nav-brand d-flex align-items-center gap-2 m-0 text-white"
+           href="#">
+            <i class="fa-solid fa-brain text-accent"></i>
+            <span>MEMOLÂNDIA</span>
+        </a>
+
+        <!-- Botão mobile -->
+        <button
+            class="navbar-toggler btn-toggler-custom border-0 shadow-none"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Abrir menu">
+            <i class="fa-solid fa-bars-staggered text-white fs-4"></i>
+        </button>
+
+        <!-- Menu responsivo -->
+        <div
+            class="offcanvas offcanvas-end offcanvas-custom"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+
+            <!-- Cabeçalho mobile -->
+            <div class="offcanvas-header border-bottom border-secondary border-opacity-25 d-lg-none">
+                <h5
+                    class="offcanvas-title fw-bold text-accent"
+                    id="offcanvasNavbarLabel">
+
+                    <i class="fa-solid fa-sliders me-2"></i>
+                    Menu
+                </h5>
+                <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Fechar menu">
+                </button>
+            </div>
+
+            <!-- Conteúdo -->
+            <div class="offcanvas-body d-flex flex-column flex-lg-row align-items-stretch align-items-lg-center justify-content-lg-end gap-3 py-4 py-lg-0">
+                <button
+                    class="btn btn-sm btn-outline-light fw-bold rounded-pill px-3 py-2 py-lg-1 navbar-action"
+                    data-bs-toggle="modal"
+                    data-bs-target="#helpModal"
+                    data-bs-dismiss="offcanvas">
+                    <i class="fa-solid fa-circle-question me-1 d-lg-none"></i>
+                    COMO JOGAR
+                </button>
+                <button
+                    class="btn btn-sm btn-outline-light fw-bold rounded-pill px-3 py-2 py-lg-1 navbar-action"
+                    data-bs-toggle="modal"
+                    data-bs-target="#aboutModal"
+                    data-bs-dismiss="offcanvas">
+                    <i class="fa-solid fa-circle-info me-1 d-lg-none"></i>
+                    SOBRE
+                </button>
+                <div class="moves-badge border border-white px-3 py-2 py-lg-1 fw-bold rounded-pill text-center">
+                    MOVIMENTOS: <span id="moves">0</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</nav>

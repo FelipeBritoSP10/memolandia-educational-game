@@ -1,0 +1,40 @@
+<div class="modal fade" id="helpModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content shadow-lg border-0">
+            <div class="modal-header border-0 pb-0 d-flex justify-content-between align-items-center">
+                <h5 class="modal-title fw-bold text-primary">
+                    <i class="fa-solid fa-gamepad me-2"></i>COMO JOGAR
+                </h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" onclick="pararVozHelp()"></button>
+            </div>
+            
+            <div class="modal-body text-secondary-emphasis">
+                <!-- Botão para ler o tutorial em voz alta -->
+                <div class="mb-3 text-end">
+                    <button id="btn-read-help" class="btn btn-sm btn-outline-info rounded-pill px-3 fw-bold" onclick="lerInstrucoes()">
+                        <i class="fa-solid fa-volume-high me-1"></i> Ouvir Instruções
+                    </button>
+                </div>
+
+                <ul class="list-unstyled">
+                    <li class="mb-3 d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-hand-pointer text-primary"></i> 
+                        <span><strong>1.</strong> Clique nas cartas para revelar os ícones ou nomes.</span>
+                    </li>
+                    <li class="mb-3 d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-object-group text-primary"></i> 
+                        <span><strong>2.</strong> Encontre o par correspondente (Ícone + Nome).</span>
+                    </li>
+                    <li class="mb-3 d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-volume-high text-primary"></i> 
+                        <span><strong>3.</strong> O sistema lerá em voz alta o conteúdo.</span>
+                    </li>
+                    <li class="d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-stopwatch text-primary"></i> 
+                        <span><strong>4.</strong> Complete todos os pares no menor número de movimentos.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

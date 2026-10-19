@@ -91,3 +91,92 @@ main {
     border-top: 1px solid #e2e8f0;
     background: #ffffff;
 }
+
+
+/* Navbar */
+.navbar-custom {
+    z-index: 1030;
+    padding: 12px 0;
+}
+
+.nav-brand {
+    font-size: clamp(1rem, 2vw, 1.35rem);
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+/* Botão hambúrguer */
+.btn-toggler-custom {
+    display: block;
+    padding: 6px 8px;
+}
+
+/* Menu lateral */
+.offcanvas-custom {
+    width: min(85vw, 320px);
+    background-color: #151525;
+    color: #fff;
+}
+
+.offcanvas-custom .offcanvas-body {
+    min-width: 0;
+}
+
+.navbar-action {
+    width: 100%;
+}
+
+/* Contador de movimentos */
+.moves-badge {
+    white-space: nowrap;
+    font-size: 0.85rem;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .btn-toggler-custom {
+        display: none;
+    }
+
+    .offcanvas-custom {
+        position: static;
+        width: auto;
+        height: auto;
+        visibility: visible !important;
+        background-color: transparent;
+        border: 0;
+        transform: none !important;
+        flex-grow: 1;
+    }
+
+    .offcanvas-custom .offcanvas-body {
+        overflow: visible;
+    }
+
+    .navbar-action {
+        width: auto;
+    }
+}
+
+/* Celulares pequenos */
+@media (max-width: 380px) {
+    .navbar-custom .container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .nav-brand {
+        font-size: 0.95rem;
+        gap: 6px !important;
+    }
+
+    .nav-brand i {
+        font-size: 1rem;
+    }
+
+    .moves-badge {
+        font-size: 0.78rem;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
